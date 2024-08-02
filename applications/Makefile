@@ -310,7 +310,7 @@ $(TOMDIST)/bin/jooleem.sh: Downloads/jooleem_0.1.4_win32_bin.zip Downloads/joole
 		echo '#! /bin/sh§§cd $$DIST/share/jooleem§exec ./jooleem§' | tr '§' '\n' >$(TOMDIST)/bin/jooleem.sh; \
 	}
 
-$(TOMDIST)/bin/cr3: Downloads/cr3_3.0.56.orig.tar.gz
+$(TOMDIST)/bin/cr3.sh: Downloads/cr3_3.0.56.orig.tar.gz
 	mkdir -p build
 	cd build && tar xf ../Downloads/cr3_3.0.56.orig.tar.gz && cd cr3.0.56-7 && { \
 		patch -p1 <../../patches/cr3.0.56-7_opentom_fltk.patch; \
