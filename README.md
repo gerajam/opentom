@@ -29,6 +29,7 @@ Before proceeding, it is recommended to backup the original contents of your GPS
 
 ## How to build extra applications
 
+- Install `unzip`
 - Run `make extra` and copy the files as described above
 - For `dosbox dune2 gnuboy linapple` and scummvm games: take them from the Internet and copy them into opentom/share subdirectories.
 - For **coolreader**: Run `sudo updatedb` in case the default font is not found.
